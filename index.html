@@ -4,6 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>나의 일기장</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#5b7fa6">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="일기장">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.11.0/dist/tabler-icons.min.css">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -411,5 +417,6 @@ function showToast(msg){
   renderDiaries();
 })();
 </script>
+<script>if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js")}</script>
 </body>
 </html>
