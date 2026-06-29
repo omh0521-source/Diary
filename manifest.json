@@ -2,7 +2,7 @@
   "name": "나의 일기장",
   "short_name": "일기장",
   "description": "개인 일기 및 일정 관리 앱",
-  "start_url": "/diary/",
+  "start_url": "/Diary/",
   "display": "standalone",
   "background_color": "#f5f4f0",
   "theme_color": "#5b7fa6",
